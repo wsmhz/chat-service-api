@@ -12,7 +12,7 @@ public enum  MsgActionEnum {
 
     CONNECT(1, "第一次(或重连)初始化连接"),
     CHAT(2, "聊天"),
-    SIGNED(3, "消息签收"),
+    SIGN(3, "消息签收"),
     KEEP_ALIVE(4, "客户端保持心跳");
 
     private Integer id;
